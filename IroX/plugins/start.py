@@ -42,7 +42,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CZTyC9AABASWxZLbcdFBor7OozKPbjkPrChTlnmoAAqEKAAI10LhVbR-6DKqKOWseBA")
+            await message.reply_sticker("CAACAgUAAxkBAAInpGXsRuwPXETPPWUFdBNPmIJlWw9ZAALcBAACDhsZVf9nUgM5IvpZNAQ")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -51,7 +51,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                f"🥱 ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴩᴇʀsᴏɴᴀʟ sᴛᴀᴛs ғʀᴏᴍ {config.MUSIC_BOT_NAME} sᴇʀᴠᴇʀ."
+                f" ɢᴇᴛᴛɪɴɢ ʏᴏᴜʀ ᴩᴇʀsᴏɴᴀʟ sᴛᴀᴛs ғʀᴏᴍ {config.MUSIC_BOT_NAME} sᴇʀᴠᴇʀ."
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -87,7 +87,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/iro_x_support) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴍᴇᴅɪᴀ](https://t.me/EquinoxNetwork) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -153,7 +153,7 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**😲
+**ᴛʀᴀᴄᴋ ɪɴғᴏʀɴᴀᴛɪᴏɴ**
 
 📌 **ᴛɪᴛʟᴇ:** {title}
 
@@ -172,7 +172,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/iro_x_support"
+                            text="• sᴜᴩᴩᴏʀᴛ •", url="https://t.me/Equinox_Chats"
                         ),
                     ],
                 ]
@@ -203,7 +203,7 @@ async def start_comm(client, message: Message, _):
         served_chats = len(await get_served_chats())
         served_users = len(await get_served_users())
         try:
-            await message.reply_sticker("CAACAgUAAx0CZTyC9AABASWxZLbcO4EGy3-KArVzcggOkLhy9o8AAqEKAAI10LhVbR-6DKqKOWsvBA")
+            await message.reply_sticker("CAACAgUAAxkBAAInpGXsRuwPXETPPWUFdBNPmIJlWw9ZAALcBAACDhsZVf9nUgM5IvpZNAQ")
             await message.reply_photo(
                 photo=image,
                 caption=_["start_2"].format(
