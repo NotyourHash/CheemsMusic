@@ -101,7 +101,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "ɪꝛᴏ log.txt"
+LOG_FILE_NAME = "Cheem log.txt"
 adminlist = {}
 lyrical = {}
 DEV = 6074152428
@@ -276,5 +276,5 @@ if TELEGRAM_VIDEO_URL:
 
 if not MUSIC_BOT_NAME.isascii():
     print(
-        "[KYA RE LAVDE] - BOHOT FONT LAGANE KA SHAUKH HAI. JAA PHIR IRO KO APNI CHUMT DEKE AA"
+        "[Cheems] - Powerful Cheems Bot "
     )
