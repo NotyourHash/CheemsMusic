@@ -1,16 +1,16 @@
 <h2 align="center">
     
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+IRO+X+MUSIC)](https://github.com/shaeep043/Iro_X)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=CHEEMS+OP+CODER+OP+MUSIC(https://github.com/NotyourHash/CheemsMusic))
 
 <h2 align="center">
-    ──「 Iro X Music 」──
+    ──「 CHEEMS X MUSICA 」──
 </h2>
 <p align="center">
   <img src="https://te.legra.ph/file/7b9bfe8d7fbb2589071e3.jpg">
 </p>
 
 <p align="center">
-<a href="https://github.com/shaeep043/Iro_x/stargazers"><img src="https://img.shields.io/github/stars/shaeep043/Iro_x?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="[https://github.com/NotyourHash/CheemsMusic]"><img src="https://img.shields.io/github/stars/shaeep043/Iro_x?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
 <a href="https://github.com/shaeep043/Iro_x/network/members"> <img src="https://img.shields.io/github/forks/shaeep043/Iro_x?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 <a href="https://github.com/shaeep043/Iro_x/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
@@ -25,7 +25,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/shaeep043/Iro_x"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/NotyourHash/CheemsMusic"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
